@@ -1,7 +1,7 @@
 import './settings.css';
 import { useContext, useState } from 'react';
 import { Context } from '../../context/Context';
-import { axiosInstance } from 'axiosInstance';
+import { axiosInstance } from '../../config';
 
 export default function Settings() {
   const [file, setFile] = useState(null);
